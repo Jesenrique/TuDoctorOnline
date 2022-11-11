@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 
 //const URL = 'http://localhost:7000/api/medicos/'
-const URL = 'https://doctoronline2.herokuapp.com/api/medicos'
+const URL = 'https://doctoronline2.herokuapp.com/api/medicos/'
 
 //componente mostrar productos
 const CompMMedico = () => {
