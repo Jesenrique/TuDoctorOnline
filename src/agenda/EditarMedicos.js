@@ -56,10 +56,10 @@ const CompEditarMedico = () => {
                         </li>
                     </ul>
                 </li>
-                <li><Link to="/" className="nav-link"> pacientes </Link>
+                <li><Link to="/pacientes" className="nav-link"> pacientes </Link>
                     <ul>
                         <li>
-                            <Link to="/agregarPaciente" className="nav-link"> Agregar Pacientes </Link>
+                            <Link to="/agregarP" className="nav-link"> Agregar Pacientes </Link>
                         </li>
                     </ul>
                 </li>

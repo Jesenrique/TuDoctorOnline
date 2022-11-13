@@ -2,10 +2,17 @@
   text-align: center;
 }
 
+main {
+	width: 2500px;
+  height: 2800px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
 .App-logo {
   height: 40vmin;
   width: 75vmax;
-  pointer-events: none;
+ 
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,7 +23,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 10vh;
+  min-height: 25vh;
+  min-width: 158vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +79,6 @@ li  .nav-link-About {
   text-decoration: none;
   float:right;
 }
-
 
 
 li .nav-link .nav-link-About :hover:not(.active) {
@@ -138,7 +145,6 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background-color: #e6e7f3;
 }
-
 
 
 /* Fromulario*/
@@ -228,15 +234,15 @@ button:hover{
 	max-width:525px;
 	min-height:670px;
 	position:relative;
-	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
-	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	background:url(hospi.jpg) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(19, 20, 19, 0.24),0 17px 50px 0 rgba(22, 22, 22, 0.19);
 }
 .login-html{
 	width:100%;
 	height:100%;
 	position:absolute;
 	padding:90px 70px 50px 70px;
-	background:rgba(40,57,101,.9);
+	background:rgba(160, 165, 179, 0.9);
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{

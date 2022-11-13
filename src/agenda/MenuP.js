@@ -85,10 +85,10 @@ const MenuP = () => {
                     </ul>
                 </li>
 
-                <li><Link to="/" className="nav-link disabled"> pacientes </Link>
+                <li><Link to="/pacientes" className="nav-link disabled"> pacientes </Link>
                     <ul>
                         <li>
-                            <Link to="/agregarPaciente" className="nav-link disabled"> Agregar Pacientes </Link>
+                            <Link to="/agregarP" className="nav-link disabled"> Agregar Pacientes </Link>
                         </li>
                     </ul>
                 </li>
