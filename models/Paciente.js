@@ -36,7 +36,7 @@ const productoSchema = mongoose.Schema({
         required: true
     },
     peso: {
-        type: Number,
+        type: String,
         required: true
     }
 

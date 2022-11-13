@@ -19,13 +19,10 @@ exports.consultarPacientes = async (req, res) => {
 exports.buscarPacientes = async (req, res) => {
 
     try {
-        const pacientes = await Paciente.find({ nombre: req.params.id });
-        //res.json(productos)
-
-        res.json(pacientes.map(function (elem) {
-            // return  elem.launches+10;
-            return (elem.nombre + "-" + elem.direccion);
-        }));
+        const pacientes = await Paciente.findById(req.params.id);
+        
+        res.json(pacientes)
+    
     } catch (error) {
         console.log(error);
         res.status(500).send("hubo un error al consultar los datos");
